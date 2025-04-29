@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gear Summit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+<nav class="bg-white shadow-md px-8 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-10">
+      <!-- Logo -->
+      <a href="index.html">
+        <img src="./assets/Logo.png" alt="Gear Summit Logo" class="h-10 w-auto" />
+      </a>
+  
+      <!-- Navigation Links -->
+      <ul class="flex gap-12 text-sm font-semibold text-gray-700">
+        <li><a href="Apparel.html" class="hover:text-black">Shop ▼</a></li>
+        <li><a href="#" class="hover:text-black">On Sale</a></li>
+        <li><a href="#" class="hover:text-black">New Arrivals</a></li>
+        <li><a href="#" class="hover:text-black">Brands</a></li>
+        <li><a href="contact.html" class="hover:text-black">Contact Us</a></li>
+      </ul>
+    </div>
+  
+    <!-- Search Bar -->
+    <div class="flex-1 mx-10">
+      <div class="relative">
+        <input type="text" placeholder="Search for products..." class="w-full bg-gray-100 rounded-full py-2 px-4 pl-10 text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400" />
+        <svg class="absolute left-3 top-2.5 h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z" />
+        </svg>
+      </div>
+    </div>
+  
+    <!-- Icons -->
+    <div class="flex items-center gap-6">
+      <!-- Cart Icon -->
+      <a href="cartpage.html" class="text-gray-700 hover:text-black">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2m0 0h13.2l.4-2M5.4 5L6 19a2 2 0 002 2h8a2 2 0 002-2l.6-14M16 9h.01M8 9h.01" />
+        </svg>
+      </a>
+  
+      <!-- User/Profile Icon -->
+      <a href="#" class="text-gray-700 hover:text-black">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A8 8 0 0112 15a8 8 0 016.879 2.804M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+      </a>
+    </div>
+  </nav>
+  
+
+  <!-- Headline Section -->
+  <section class="relative h-[80vh] bg-cover bg-center" style="background-image: url('./assets/banner.png');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-center text-white px-4">
+      <h2 class="text-5xl font-bold mb-4">Gear Up for Every Peak</h2>
+      <p class="text-xl">Push Your Limits with Top Performance Gear</p>
+      <a href="#" class="mt-6 bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-300">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="px-8 py-16">
+    <h3 class="text-3xl font-bold mb-10 text-center">New Arrivals</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+
+      <!-- Products -->
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/Resistance-Bands.png" class="w-full" alt="Resistance Band">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Resistance Band Set</h4>
+          <p class="text-gray-600">₱212 <span class="text-yellow-500">5.0★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/Jump-rope.png" class="w-full" alt="Jump Rope">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Weighted Jump Rope</h4>
+          <p><span class="line-through text-gray-400">₱160</span> ₱130 <span class="text-red-500">-30%</span> <span class="text-yellow-500">4.5★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/Compression-Shirt.png" class="w-full" alt="Jersey">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Compression Jersey Set</h4>
+          <p><span class="line-through text-gray-400">₱90</span> ₱65 <span class="text-red-500">-20%</span> <span class="text-yellow-500">4.5★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/sportsSunglasses.png" class="w-full" alt="Sunglasses">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Sports Sunglasses</h4>
+          <p><span class="line-through text-gray-400">₱260</span> ₱240 <span class="text-red-500">-20%</span> <span class="text-yellow-500">3.5★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/Agility-Ladder.png" class="w-full" alt="Agility Ladder">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Agility Ladder</h4>
+          <p>₱80 <span class="text-yellow-500">3.0★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/runningJacket.png" class="w-full" alt="Sports Jacket">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Lightweight Sports Jacket</h4>
+          <p>₱120 <span class="text-yellow-500">3.0★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/Shades.png" class="w-full" alt="Yoga Mat">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Premium Yoga Mat</h4>
+          <p>₱180 <span class="text-yellow-500">4.0★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/Hydro-Backpack.png" class="w-full" alt="Gloves">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Training Gloves</h4>
+          <p>₱99 <span class="text-yellow-500">4.2★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img src="assets/hydration.png" class="w-full" alt="Water Bottle">
+        <div class="p-4">
+          <h4 class="font-bold text-lg">Hydro Steel Bottle</h4>
+          <p>₱59 <span class="text-yellow-500">4.8★</span></p>
+          <a href="#" class="text-sm text-blue-600 hover:underline">Learn More</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+<footer class="bg-black text-white px-8 py-12 mt-10">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+  
+      <!-- SocMed Icons -->
+      <div class="flex flex-col gap-6">
+        <div class="flex gap-4">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/twitterx.png" alt="X" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="Instagram" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/youtube-play.png" alt="YouTube" /></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn" /></a>
+        </div>
+      </div>
+  
+      <!-- Categories -->
+      <div>
+        <h5 class="font-bold mb-4 text-lg">Categories</h5>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-yellow-300">Men’s Gear</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Women’s Gear</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Kid’s Gear</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Footwear</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Accessories</a></li>
+        </ul>
+      </div>
+  
+      <!-- Explore -->
+      <div>
+        <h5 class="font-bold mb-4 text-lg">Explore</h5>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-yellow-300">New Arrivals</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Best Sellers</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Discounts & Deals</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Size Guide</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Gift Cards</a></li>
+        </ul>
+      </div>
+  
+      <!-- Customer Support -->
+      <div>
+        <h5 class="font-bold mb-4 text-lg">Customer Support</h5>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-yellow-300">FAQ</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Shipping and Returns</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Store Locator</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Contact Us</a></li>
+          <li><a href="#" class="hover:text-yellow-300">Terms & Conditions</a></li>
+        </ul>
+      </div>
+  
+    </div>
+  
+    <!-- Copyright Part -->
+    <div class="text-center text-gray-500 text-xs mt-10">
+      &copy; 2025 Gear Summit. All rights reserved.
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
